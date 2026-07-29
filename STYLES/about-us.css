@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    h1, h2 {
+        text-align: center;
+    }
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+/*------------------ HEADER --------------------*/
+header {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+
+    h2 {
+        font-family: "Corinthia", cursive;
+        font-size: 30px;
+    }
+}
+
+.header-nav li > a {
+    text-decoration: none;
+
+    color: black;
+
+    align-items: center;
+
+    font-weight: bold;
+}
+
+.header-nav ul {
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+    li {
+        list-style: none;
+        
+        a {
+             color: rgb(59, 5, 5);
+        }
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 5px;
+
+    background-color: rgba(66, 23, 23, 0.767);
+    color: white;
+}
+
+/*--------- IMAGES ----------*/
+.logo {
+    width: 150px;
+}
+
+.socials {
+    width: 40px;
+}
+
+.contact-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.footer-socials {
+    width: 30px;
+    height: 30px;
+}
+
+.owner {
+    width: 250px;
+    border-radius: 20px;
+
+    border-style: 2px;
+
+
+    display: block;
+
+    background-color: rgb(59, 7, 7);
+
+    padding: 5px;
+}
+
+.table-icons {
+    width: 25px;
+}
+
+/*--------------------------------------------*/
+main {
+    justify-content: center;
+    align-items: center ;
+
+    h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+.display-pic {
+    background-image: url(/IMAGES/ktb-frontyard.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 100px;
+
+    color: white;
+
+    h1 {
+        font-size: 60px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    h2 {
+        font-family: "Corinthia", cursive;
+        font-size: 40px;
+    }
+
+   
+}
+
+.baba-ng-pic-container {
+    display: flex;
+
+    gap: 5px;
+
+    padding: 10px;
+
+    align-items: center;
+}
+
+.abt-ktb-paragraph {
+    display: flex;
+
+    gap: 20px;
+}
+
+.abt-ktb-paragraph p {
+    flex: 1;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-ktb {
+    text-align: justify;
+}
+
+.about-ktb, 
+.table-at-pic-container {
+    flex: 1;
+
+    justify-content: center;
+
+    gap: 10px;
+}
+
+/* TABLE */
+td, th, p {
+    padding: 5px;
+    font-family: "Oswald", sans-serif;
+}
+
+td {
+    align-items: center;
+}
+
+th {
+    background-color: rgba(57, 27, 2, 0.909);
+    color: white;
+
+    border-radius: 10px;
+}
+
+.table-at-pic-container {
+    display: flex;
+}
+
+.col1 {
+    display: flex;
+    gap: 10px;
+
+    align-items: center;
+}
