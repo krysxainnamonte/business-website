@@ -105,7 +105,7 @@ header {
 
 /*------------------ ROW 1 --------------------*/
 .row-1 {
-    background-image: url(/IMAGES/background.png);
+    background-image: url(../IMAGES/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -298,6 +298,6 @@ footer {
 
     padding: 5px;
 
-    background-color: rgba(66, 23, 23, 0.767);
+    background-color: rgb(219, 204, 190);
     color: white;
 }
