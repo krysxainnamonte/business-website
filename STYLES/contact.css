@@ -113,7 +113,7 @@ iframe {
 }
 
 body {
-    background-image: url(/IMAGES/contacts-bg.png);
+    background-image: url(../IMAGES/contacts-bg.png);
      background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
