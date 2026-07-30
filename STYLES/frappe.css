@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+/*------------ IMAGES -------------*/
+.logo {
+    width: 150px;
+}
+
+.socials {
+    width: 40px;
+}
+
+.contact-logo {
+    width: 20px;
+    height: 20px;
+}
+
+.why-us-pic {
+    width: 60px;
+    align-self: center;
+}
+
+.ktb {
+    width: 100%;
+}
+
+.products {
+    width: 250px;
+    border-radius: 10px;
+}
+.products2 {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.footer-logo {
+    width: 150px;
+}
+
+.footer-socials {
+    width: 30px;
+    height: 30px;
+}
+
+.delight {
+    width:150px;
+    height: 100px;
+
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.544);
+    border-radius: 5px;
+}
+/*-------------------------------------------------*/
+
+
+/*------------------ HEADER --------------------*/
+header {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+
+    h2 {
+        font-family: "Corinthia", cursive;
+        font-size: 30px;
+    }
+}
+
+header > div {
+    text-align: center;
+}
+
+.header-nav li > a {
+    text-decoration: none;
+
+    color: black;
+
+    align-items: center;
+}
+
+.header-nav ul {
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+
+    padding: 10px;
+
+    li {
+        list-style: none;
+        
+        a {
+             color: rgb(33, 0, 0);
+             font-weight: bold;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 5px;
+
+    background-color: rgb(219, 204, 190);
+    color: black;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+main {
+    padding: 20px;
+    background-image: url(../IMAGES/frappe-main-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*FRAPPE SECTION*/
+
+.frappe {
+    background-color: WHITE;
+
+    padding: 10px;
+    border-radius: 10px;
+
+    color: black;
+
+    max-width: 150px;
+    max-height: 150px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.544);
+}
+
+.frappe-container {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+}
+
+.frappe-container > h1 {
+    background-color: rgba(118, 86, 86, 0.915);
+    border-radius: 10px;
+
+    color: white; 
+
+    padding: 5px;
+
+    text-align: center;
+
+    max-width: 1220px;
+}
+
+.delights-row {
+    display: flex;
+    gap: 10px;
+
+    justify-content: flex-start;
+}
+
+.frappe {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    text-align: center;
+
+    max-width: 180px;
+    max-height: 230px;
+}
+
+
+.prices {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+
+.frappe {
+    transition: .3s; /* TRANSITION NG PAG ANGAT NG CARDS*/
+}
+
+
+.frappe:hover {
+    transform:translateY(-8px); /*Y kase vertical tapos -8 para tumaas*/
+    box-shadow: 0 18px 35px rgba(0,0,0,.25);
+}

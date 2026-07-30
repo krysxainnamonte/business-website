@@ -1,0 +1,78 @@
+main {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    padding: 20px;
+
+    background-image: url(../IMAGES/delight-main-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        background-color: rgb(62, 42, 16);
+        color: white;
+
+        padding: 5px;
+
+        border-radius: 10px;
+
+        max-width: 1000px;
+    }
+}
+
+.delight {
+    width:150px;
+    height: 120px;
+
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.544);
+    border-radius: 5px;
+}
+
+
+.delights {
+    background-color: white;
+
+    padding: 10px;
+    border-radius: 10px;
+
+    color: black;
+
+    max-width: 150px;
+    max-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.544);
+}
+
+.delight-info p {
+    text-align: center;
+}
+
+.delights-row {
+    display: flex;
+    gap: 20px;
+
+    justify-content: flex-start;
+}
+
+.prices {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+
+.delights {
+    transition:.3s; /* TRANSITION NG PAG ANGAT NG CARDS*/
+}
+
+.delights:hover {
+    transform:translateY(-8px); /*Y kase vertical tapos -8 para tumaas*/
+    box-shadow:0 18px 35px rgba(0,0,0,.25);
+}

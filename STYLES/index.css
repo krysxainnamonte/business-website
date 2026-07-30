@@ -72,6 +72,11 @@ header {
         font-family: "Corinthia", cursive;
         font-size: 30px;
     }
+
+    h1 {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
 }
 
 .header-nav li > a {
@@ -100,8 +105,6 @@ header {
         }
     }
 }
-
-
 
 /*------------------ ROW 1 --------------------*/
 .row-1 {
@@ -300,4 +303,8 @@ footer {
 
     background-color: rgb(219, 204, 190);
     color: black;
+}
+
+footer > p {
+    font-family: "Oswald", sans-serif;
 }

@@ -29,6 +29,10 @@ header {
         font-family: "Corinthia", cursive;
         font-size: 30px;
     }
+    h2 {
+        font-family: "Corinthia", cursive;
+        font-size: 30px;
+    }
 }
 
 .header-nav li > a {
