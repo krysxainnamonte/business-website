@@ -74,6 +74,10 @@ header {
     }
 }
 
+.header > h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .header-nav li > a {
     text-decoration: none;
 
@@ -110,6 +114,10 @@ footer {
 
     background-color: rgb(219, 204, 190);
     color: black;
+}
+
+footer > p {
+    font-family: "Oswald", sans-serif;
 }
 
 *::-webkit-scrollbar {

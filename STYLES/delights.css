@@ -19,6 +19,8 @@ main {
         border-radius: 10px;
 
         max-width: 1000px;
+
+        font-family: 'Times New Roman', Times, serif;
     }
 }
 
@@ -67,6 +69,7 @@ main {
     justify-content: space-between;
 }
 
+/* ANIMATION */
 
 .delights {
     transition:.3s; /* TRANSITION NG PAG ANGAT NG CARDS*/

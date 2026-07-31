@@ -202,6 +202,11 @@ main {
     justify-content: space-between;
 }
 
+.gilid-ng-frappe > h2 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 .frappe {
     transition: .3s; /* TRANSITION NG PAG ANGAT NG CARDS*/

@@ -1,120 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
-
-    h1, h2 {
-        text-align: center;
-    }
-}
-
-/*------------ IMAGES -------------*/
-.logo {
-    width: 150px;
-}
-
-.socials {
-    width: 30px;
-}
-
-.ktb {
-    width: 100%;
-}
-
-.footer-logo {
-    width: 150px;
-}
-
-.footer-socials {
-    width: 30px;
-    height: 30px;
-}
-
-.delight {
-    width:140px;
-    height: 90px;
-
-    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.544);
-    border-radius: 10px 10px 0 0;
-}
-
-.display {
-    width: 200px;
-}
-/*-------------------------------------------------*/            
-
-
-/*------------------ HEADER --------------------*/
-header {
-    display: flex;
-
-    padding: 5px;
-
-    align-items: center;
-    justify-content: space-around;
-
-    top: 0;
-    position: sticky;
-    z-index: 1000;
-
-    h2 {
-        font-family: "Corinthia", cursive;
-        font-size: 30px;
-    }
-
-    h1 {
-        font-size: 30px;
-        font-family: 'Times New Roman', Times, serif;
-    }
-}
-
-.header-nav li > a {
-    text-decoration: none;
-
-    color: black;
-
-    align-items: center;
-}
-
-.header-nav ul {
-    display: flex;
-
-    align-items: center;
-
-    gap: 30px;
-
-    padding: 10px;
-
-    li {
-        list-style: none;
-        
-        a {
-             color: rgb(33, 0, 0);
-             font-weight: bold;
-        }
-    }
-}
-
-/*------------- FOOTER ---------------*/
-footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    padding: 5px;
-
-    background-color: rgb(219, 204, 190);
-    color: black;
-}
-
-*::-webkit-scrollbar {
-    display: none;
-}
-
-footer > p {
-    font-family: "Oswald", sans-serif;
-}
 
 /*------------- main ---------------*/
 main {
@@ -128,28 +12,45 @@ main {
 
     h1 {
         font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
     }
 
     h2 {
         font-family: "Tangerine", cursive;
+        font-size: 35px;
     }
 }
 
-main div {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    background-image: url(../IMAGES/menu-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-division {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.main-division {
+    display: flex;
+    flex-direction: row;
+
+    justify-content:center;
 
     gap: 20px;
 }
 
-section {
-    background-color: rgb(246, 245, 244);
-    padding: 20px;
-
-    border-radius: 10px;
-
-    box-shadow: 10px 0 18px 0 rgba(0,0,0,.25);;
+.main-division > a {
+    box-shadow: 10px 0 18px 0 rgba(0,0,0,.25);
+    border-radius: 20px;
 }
 
 a {
@@ -157,12 +58,26 @@ a {
     color: brown;
 }
 
-section {
+.main-division > a {
     transition:.3s; /* TRANSITION NG PAG ANGAT NG CARDS*/
 }
 
 
-section:hover {
+.main-division > a:hover {
     transform:translateY(-8px); /*Y kase vertical tapos -8 para tumaas*/
     box-shadow:0 18px 35px rgba(0,0,0,.25);
+}
+
+
+.delight {
+    width:140px;
+    height: 90px;
+
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.544);
+    border-radius: 10px 10px 0 0;
+}
+
+.display {
+    width: 300px;
+    border-radius: 20px;
 }

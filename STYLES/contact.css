@@ -1,110 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
 
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-*::-webkit-scrollbar {
-    display: none;
-}
-
-
-/*------------------ HEADER --------------------*/
-header {
-    display: flex;
-
-    align-items: center;
-    justify-content: space-around;
-
-    top: 0;
-    position: sticky;
-    z-index: 1000;
-
-    h2 {
-        font-family: "Corinthia", cursive;
-        font-size: 30px;
-    }
-
-    h1 {
-        text-align: center;
-        font-family: 'Times New Roman', Times, serif;
-    }
-}
-
-.header-nav li > a {
-    text-decoration: none;
-
-    color: black;
-
-    align-items: center;
-
-    font-weight: bold;
-}
-
-.header-nav ul {
-    display: flex;
-
-    align-items: center;
-
-    gap: 30px;
-
-    padding: 10px;
-
-    border-radius: 10px;
-
-    li {
-        list-style: none;
-        
-        a {
-             color: rgb(59, 5, 5);
-        }
-    }
-}
-
-footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    padding: 5px;
-
-    background-color:  rgb(219, 204, 190);
-    color: black;
-}
-
-footer > p {
-    font-family: "Oswald", sans-serif;
-}
-
-/*--------- IMAGES ----------*/
-.logo {
-    width: 150px;
-}
-
-.socials {
-    width: 40px;
-}
-
-.contact-logo {
-    width: 20px;
-    height: 20px;
-}
-
-.footer-logo {
-    width: 150px;
-}
-
-.footer-socials {
-    width: 30px;
-    height: 30px;
-}
 
 .icons {
     width: 40px;
     height: 40px;
 
-    background-color:  rgb(218, 173, 121);
+    background-color:  rgb(237, 237, 237);
     border-radius: 25px;
     padding: 3px;
 }
@@ -280,16 +180,19 @@ button[type="reset"] {
 .contacts {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 
     gap: 10px;
 }
 
 .contacts img + div {
-    color: rgb(251, 211, 166);
-    text-align: left;
+    color: white;
+    
 
-    p {
+    p, h2 {
         color: white;
+        text-align: left;
     }
 }
 
@@ -315,5 +218,9 @@ button[type="reset"] {
     h1 {
         text-align: center;
     }
+}
+
+.default {
+    color: rgb(118, 121, 124);
 }
 
